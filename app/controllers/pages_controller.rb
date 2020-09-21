@@ -4,4 +4,7 @@ class PagesController < ApplicationController
 
   def authenticated
   end
+
+  def tasks
+  end
 end

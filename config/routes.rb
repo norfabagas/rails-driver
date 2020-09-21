@@ -10,4 +10,6 @@ Rails.application.routes.draw do
   end
 
   root 'pages#home'
+
+  get 'tasks', to: 'pages#tasks', as: :tasks
 end
